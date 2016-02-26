@@ -1,0 +1,37 @@
+﻿Build started 26.02.2016 19:54:03.
+     1>Project "D:\my_workspace\my_projects\Arcanoid\Arcanoid\Arcanoid.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GameObject.cpp GameStates.cpp main.cpp Vec2.cpp
+         Vec2.cpp
+         main.cpp
+         GameStates.cpp
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gamestates.cpp(14): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gamestates.cpp(16): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gamestates.cpp(18): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gamestates.cpp(715): warning C4800: 'BOOL' : forcing value to bool 'true' or 'false' (performance warning)
+         GameObject.cpp
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gameobject.cpp(92): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gameobject.cpp(160): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gameobject.cpp(172): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gameobject.cpp(176): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gameobject.cpp(180): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gameobject.cpp(184): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gameobject.cpp(256): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gameobject.cpp(258): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\my_workspace\my_projects\arcanoid\arcanoid\gameobject.cpp(259): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Resource.res" Resource.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\my_workspace\my_projects\Arcanoid\Arcanoid\Debug\Arcanoid.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\my_workspace\my_projects\Arcanoid\Arcanoid\Debug\Arcanoid.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\my_workspace\my_projects\Arcanoid\Arcanoid\Debug\Arcanoid.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\GameObject.obj
+         Debug\GameStates.obj
+         Debug\main.obj
+         Debug\Vec2.obj
+         LINK : D:\my_workspace\my_projects\Arcanoid\Arcanoid\Debug\Arcanoid.exe not found or not built by the last incremental link; performing full link
+         Arcanoid.vcxproj -> D:\my_workspace\my_projects\Arcanoid\Arcanoid\Debug\Arcanoid.exe
+     1>Done Building Project "D:\my_workspace\my_projects\Arcanoid\Arcanoid\Arcanoid.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.16

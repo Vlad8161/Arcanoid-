@@ -1,0 +1,211 @@
+// BLOCKS
+		
+		GameObject *new_obj = new BlockObject(Vec2(200, 200), Vec2(3, 2));
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(400, 250), Vec2(-5, -3));
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(600, 150), Vec2(2, 2));
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(280, 320), Vec2(-5, -3));
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(110, 400), Vec2(-1, 5));
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(400, 400), Vec2(3, 6));
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(700, 100), Vec2(-2, 4));
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(750, 550), Vec2(4, -3));
+		_objects.push_back(new_obj);
+
+		new_obj = new BlockObject(Vec2(0, GAME_RESOLUTION_Y / 2), Vec2(0, 0), 
+			10, GAME_RESOLUTION_Y / 2);
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(GAME_RESOLUTION_X / 2, GAME_RESOLUTION_Y), Vec2(0, 0),
+			GAME_RESOLUTION_X / 2, 10); 
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(GAME_RESOLUTION_X, GAME_RESOLUTION_Y / 2), Vec2(0, 0),
+			10, GAME_RESOLUTION_Y / 2); 
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(GAME_RESOLUTION_X / 2, 0), Vec2(0, 0),
+			GAME_RESOLUTION_X / 2, 10);
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(GAME_RESOLUTION_X / 2, GAME_RESOLUTION_Y / 4 * 3), Vec2(0, 0),
+			10, GAME_RESOLUTION_Y / 2);
+		_objects.push_back(new_obj);
+
+
+// BLOCKS AND BALLS
+
+		GameObject *new_obj = new BlockObject(Vec2(300, 300));
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(1300, 300));
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(1300, 600));
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(300, 600));
+		_objects.push_back(new_obj);
+		new_obj = new RoundObject(Vec2(500, 700), Vec2(1, -5), 20);
+		_objects.push_back(new_obj);
+		new_obj = new RoundObject(Vec2(100, 100), Vec2(-2, 3), 20);
+		_objects.push_back(new_obj);
+		new_obj = new RoundObject(Vec2(800, 450), Vec2(-4, -3), 20);
+		_objects.push_back(new_obj);
+		new_obj = new RoundObject(Vec2(250, 260), Vec2(2, 2), 20);
+		_objects.push_back(new_obj);
+
+		new_obj = new BlockObject(Vec2(0, GAME_RESOLUTION_Y / 2), Vec2(0, 0), 
+			10, GAME_RESOLUTION_Y / 2);
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(GAME_RESOLUTION_X / 2, GAME_RESOLUTION_Y), Vec2(0, 0),
+			GAME_RESOLUTION_X / 2, 10); 
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(GAME_RESOLUTION_X, GAME_RESOLUTION_Y / 2), Vec2(0, 0),
+			10, GAME_RESOLUTION_Y / 2); 
+		_objects.push_back(new_obj);
+		new_obj = new BlockObject(Vec2(GAME_RESOLUTION_X / 2, 0), Vec2(0, 0),
+			GAME_RESOLUTION_X / 2, 10);
+		_objects.push_back(new_obj);
+
+// MANY BLOCKS AND BALLS
+
+GameObject *new_obj = new BlockObject(Vec2(300, 400));
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(1300, 400));
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(1300, 700));
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(300, 700));
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(800, 400));
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(800, 700));
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(300, 100));
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(800, 100));
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(1300, 100));
+	_objects.push_back(new_obj);
+
+
+	new_obj = new RoundObject(Vec2(200, 50), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 100), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 150), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 200), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 250), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 300), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 350), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 400), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 450), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 500), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 550), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(200, 600), Vec2(4, 0), 20);
+	_objects.push_back(new_obj);
+
+	new_obj = new RoundObject(Vec2(600, 50), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 100), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 150), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 200), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 250), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 300), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 350), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 400), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 450), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 500), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 550), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(600, 600), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+
+	new_obj = new RoundObject(Vec2(1000, 50), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 100), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 150), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 200), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 250), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 300), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 350), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 400), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 450), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 500), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 550), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+	new_obj = new RoundObject(Vec2(1000, 600), Vec2(4, 4), 20);
+	_objects.push_back(new_obj);
+
+
+	new_obj = new BlockObject(Vec2(0, GAME_AREA_Y / 2), Vec2(0, 0),
+		10, GAME_AREA_Y / 2);
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(GAME_AREA_X / 2, GAME_AREA_Y), Vec2(0, 0),
+		GAME_AREA_X / 2, 10);
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(GAME_AREA_X, GAME_AREA_Y / 2), Vec2(0, 0),
+		10, GAME_AREA_Y / 2);
+	_objects.push_back(new_obj);
+	new_obj = new BlockObject(Vec2(GAME_AREA_X / 2, 0), Vec2(0, 0),
+		GAME_AREA_X / 2, 10);
+	_objects.push_back(new_obj);
+
+
+//XZ_4E
+
+new_obj = new ArcanoidBlock(Vec2(200, 200), this);
+	_objects.insert(new_obj);
+	new_obj = new ArcanoidBlock(Vec2(300, 200), this);
+	_objects.insert(new_obj);
+	new_obj = new ArcanoidBlock(Vec2(400, 200), this);
+	_objects.insert(new_obj);
+	new_obj = new ArcanoidBlock(Vec2(500, 200), this);
+	_objects.insert(new_obj);
+	new_obj = new ArcanoidBlock(Vec2(600, 200), this);
+	_objects.insert(new_obj);
+	new_obj = new ArcanoidBlock(Vec2(200, 400), this);
+	_objects.insert(new_obj);
+	new_obj = new ArcanoidBlock(Vec2(300, 400), this);
+	_objects.insert(new_obj);
+	new_obj = new ArcanoidBlock(Vec2(400, 400), this);
+	_objects.insert(new_obj);
+	new_obj = new ArcanoidBlock(Vec2(500, 400), this);
+	_objects.insert(new_obj);
+	new_obj = new ArcanoidBlock(Vec2(600, 400), this);
+	_objects.insert(new_obj);
+
+	new_obj = new RoundObject(Vec2(100, 100), Vec2(3, 2), 20);
+	_objects.insert(new_obj);
+	new_obj = new RoundObject(Vec2(100, 200), Vec2(3, -2), 20);
+	_objects.insert(new_obj);
+	new_obj = new RoundObject(Vec2(100, 300), Vec2(-3, 2), 20);
+	_objects.insert(new_obj);
+	new_obj = new RoundObject(Vec2(100, 400), Vec2(-3, -2), 20);
+	_objects.insert(new_obj);

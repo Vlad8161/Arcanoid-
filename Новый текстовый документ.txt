@@ -1,0 +1,12 @@
+LOGFONT lf;
+
+	ZeroMemory(&lf, sizeof(lf));
+	lf.lfHeight = 56;
+	lf.lfWeight = FW_EXTRABOLD;
+	lf.lfCharSet = DEFAULT_CHARSET;
+	lf.lfOutPrecision = OUT_DEFAULT_PRECIS;
+	lf.lfClipPrecision = CLIP_DEFAULT_PRECIS;
+	lf.lfQuality = ANTIALIASED_QUALITY;
+	lf.lfPitchAndFamily = DEFAULT_PITCH | FF_DONTCARE;
+	_tcscpy_s(lf.lfFaceName, _T("Bauhaus 93"));
+	_font = CreateFontIndirect(&lf);
